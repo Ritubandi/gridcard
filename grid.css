@@ -1,0 +1,49 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.card{
+    display:inline-block;
+    margin:40px;
+    grid-template-columns: repeat(16,1fr);
+    grid-gap: 25px;
+    justify-content: center;
+    margin-left: 60px;
+}
+.container{
+    
+    flex-direction: column;
+    padding-top: 5px;
+    background-color: white;
+    text-align: left;
+    grid-gap:23px;
+  
+    
+}
+.desc{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+.first img{
+    width:85%;
+    height:200px;
+    
+   
+}
+.discount-money{
+    color: red;
+
+}
+.Cut-money{
+    text-decoration-line: line-through;
+    color:darkgrey
+}
+.Name{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
